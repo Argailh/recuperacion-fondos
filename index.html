@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Recomendaciones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      padding: 40px;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: auto;
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+    }
+
+    h1 {
+      text-align: center;
+      color: #111827;
+      margin-bottom: 25px;
+      font-size: 32px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 15px;
+    }
+
+    thead {
+      background: #1e293b;
+      color: white;
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+      font-size: 14px;
+      vertical-align: top;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f8fafc;
+    }
+
+    tbody tr:hover {
+      background: #e0f2fe;
+      transition: 0.3s ease;
+    }
+
+    .cumplida {
+      color: #16a34a;
+      font-weight: bold;
+    }
+
+    .nocumplida {
+      color: #dc2626;
+      font-weight: bold;
+    }
+
+    .parcial {
+      color: #d97706;
+      font-weight: bold;
+    }
+
+    .valor {
+      font-weight: bold;
+      color: #2563eb;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Seguimiento de Recomendaciones</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Descripción Resumida</th>
+        <th>Valor</th>
+        <th>Área Responsable</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>R-01FS</td>
+        <td>Prevención y Evaluación de Riesgos</td>
+        <td>-</td>
+        <td>Tesorería R.F. Social</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Análisis profundo del cliente (préstamos)</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Implementación de sistemas de scoring crediticio</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Segmentación del socio (préstamos)</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Comunicación y Educación Financiera</td>
+        <td>-</td>
+        <td>Tesorería / Préstamos</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Promoción de educación financiera</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Sistema de recordatorios y alertas</td>
+        <td>-</td>
+        <td>Tesorería / Cartera de Crédito</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Contacto proactivo para cartera de crédito</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Flexibilidad en los Pagos</td>
+        <td>-</td>
+        <td>Tesorería / ASPA / Contabilidad / R.F. Social</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Reestructuración de deudas</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Planes de pago adaptados</td>
+        <td>-</td>
+        <td>Contabilidad</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Incentivos por pagos anticipados o completos</td>
+        <td>-</td>
+        <td>ASPA</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Recuperación Activa y Gestión de Cartera Morosa</td>
+        <td>-</td>
+        <td>Tesorería / Jurídica / R.F. Social</td>
+        <td class="parcial">PARCIALMENTE CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Cobranza efectiva</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="cumplida">CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Uso de agencias externas de cobranza</td>
+        <td>-</td>
+        <td>Jurídica</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Negociación de acuerdos de pago</td>
+        <td>-</td>
+        <td>Tesorería</td>
+        <td class="cumplida">CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Uso de Tecnología y Herramientas Digitales</td>
+        <td>-</td>
+        <td>Sistemas</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Automatización de procesos</td>
+        <td>-</td>
+        <td>Sistemas</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Plataformas móviles y digitales</td>
+        <td>-</td>
+        <td>Sistemas</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Acción Legal</td>
+        <td>-</td>
+        <td>Jurídica</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Extra judicial</td>
+        <td>-</td>
+        <td>Jurídica</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Vía judicial</td>
+        <td>-</td>
+        <td>Jurídica</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Incentivos para la Recuperación</td>
+        <td>-</td>
+        <td>ASPA / Contabilidad / R.F. Social</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Descuentos por pago total</td>
+        <td>-</td>
+        <td>ASPA</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Mejora del historial crediticio</td>
+        <td>-</td>
+        <td>Contabilidad</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Capacitación</td>
+        <td>-</td>
+        <td>CRRHH</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Evaluación del personal para recuperación de cartera</td>
+        <td>-</td>
+        <td>CRRHH</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+
+      <tr>
+        <td>R-01FS</td>
+        <td>Herramientas para recuperación de cartera vencida</td>
+        <td>-</td>
+        <td>CRRHH</td>
+        <td class="nocumplida">NO CUMPLIDA</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
